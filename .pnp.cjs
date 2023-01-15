@@ -28,6 +28,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@types/node", "npm:18.11.18"],\
+            ["@vue/tsconfig", "virtual:da1d40c97bc878b1e312d9c57ce581d05a51fb8138c6ddf58970f58bd90a876927bd1d36026d9487e1026e0e368fbdcd3519426d060052ac8eae389bace3ab8d#npm:0.1.3"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"],\
             ["vitepress", "npm:1.0.0-draft.8"],\
             ["vue", "npm:3.2.45"]\
           ],\
@@ -368,6 +371,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/node", [\
+        ["npm:18.11.18", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.18-d61e8a4a20-03f17f9480.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:18.11.18"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/web-bluetooth", [\
         ["npm:0.0.14", {\
           "packageLocation": "./.yarn/cache/@types-web-bluetooth-npm-0.0.14-916c70e6c5-1eb694ff2b.zip/node_modules/@types/web-bluetooth/",\
@@ -647,6 +659,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@vue-shared-npm-3.2.45-1855c9c551-ff3205056c.zip/node_modules/@vue/shared/",\
           "packageDependencies": [\
             ["@vue/shared", "npm:3.2.45"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@vue/tsconfig", [\
+        ["npm:0.1.3", {\
+          "packageLocation": "./.yarn/cache/@vue-tsconfig-npm-0.1.3-07ae9b676e-8150a24497.zip/node_modules/@vue/tsconfig/",\
+          "packageDependencies": [\
+            ["@vue/tsconfig", "npm:0.1.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:da1d40c97bc878b1e312d9c57ce581d05a51fb8138c6ddf58970f58bd90a876927bd1d36026d9487e1026e0e368fbdcd3519426d060052ac8eae389bace3ab8d#npm:0.1.3", {\
+          "packageLocation": "./.yarn/__virtual__/@vue-tsconfig-virtual-730156c40f/0/cache/@vue-tsconfig-npm-0.1.3-07ae9b676e-8150a24497.zip/node_modules/@vue/tsconfig/",\
+          "packageDependencies": [\
+            ["@vue/tsconfig", "virtual:da1d40c97bc878b1e312d9c57ce581d05a51fb8138c6ddf58970f58bd90a876927bd1d36026d9487e1026e0e368fbdcd3519426d060052ac8eae389bace3ab8d#npm:0.1.3"],\
+            ["@types/node", "npm:18.11.18"]\
+          ],\
+          "packagePeers": [\
+            "@types/node"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -975,6 +1007,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["dnd", "workspace:."],\
+            ["@types/node", "npm:18.11.18"],\
+            ["@vue/tsconfig", "virtual:da1d40c97bc878b1e312d9c57ce581d05a51fb8138c6ddf58970f58bd90a876927bd1d36026d9487e1026e0e368fbdcd3519426d060052ac8eae389bace3ab8d#npm:0.1.3"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"],\
             ["vitepress", "npm:1.0.0-draft.8"],\
             ["vue", "npm:3.2.45"]\
           ],\
@@ -2080,6 +2115,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/to-fast-properties-npm-2.0.0-0dc60cc481-be2de62fe5.zip/node_modules/to-fast-properties/",\
           "packageDependencies": [\
             ["to-fast-properties", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["typescript", [\
+        ["patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-b74a6ef84c-37f6e2c3c5.zip/node_modules/typescript/",\
+          "packageDependencies": [\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"]\
           ],\
           "linkType": "HARD"\
         }]\
