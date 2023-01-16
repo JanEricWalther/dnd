@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t}from"./app.0db58bf6.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"rules/wizard-scribe.md"}'),a={name:"rules/wizard-scribe.md"};function s(c,o,i,n,d,p){return t(),r("div")}const m=e(a,[["render",s]]);export{l as __pageData,m as default};
