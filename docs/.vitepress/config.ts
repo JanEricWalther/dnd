@@ -9,25 +9,21 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: 'Example', link: '/example' },
-
-      // {
-      //   text: 'Dropdown Menu',
-      //   items: [
-      //     { text: 'Item A', link: '/item-1' },
-      //     { text: 'Item B', link: '/item-2' },
-      //     { text: 'Item C', link: '/item-3' },
-      //   ],
-      // },
-
-      // ...
+      { text: 'Regeln', link: '/rules/' },
+      {
+        text: 'Karten',
+        items: [
+          { text: 'Kontinent', link: '/maps/' },
+          { text: 'Bissal Halbinsel', link: '/maps/' },
+          { text: 'Caldrum', link: '/maps/' },
+        ],
+      },
     ],
-
     sidebar: [
       {
         // text: 'Guide',
         items: [
-          { text: 'Example', link: '/example' },
+          { text: 'Götzendämmerung', link: '/campaign-pitch' },
           // ...
         ],
       },
