@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./app.0db58bf6.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"rules/wizard.md"}'),a={name:"rules/wizard.md"};function s(o,c,n,d,i,p){return r(),t("div")}const m=e(a,[["render",s]]);export{l as __pageData,m as default};
