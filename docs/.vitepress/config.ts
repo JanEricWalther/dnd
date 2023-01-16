@@ -21,10 +21,7 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        // text: 'Guide',
         items: [
-          { text: 'Götzendämmerung', link: '/campaign-pitch' },
-          // ...
         ],
       },
     ],
